@@ -1,0 +1,55 @@
+// main program file
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+
+
+namespace NET_lab2
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            // Q1
+            //Q1_lab1 q1 = new Q1_lab1();
+            //q1.Display();
+
+            // Q2
+            // Q2_lab1 q2 = new Q2_lab1();
+            // q2.Sum();
+
+            // Q3
+            //Q3_lab1 q3 = new Q3_lab1();
+            //q3.CheckOddEven();
+
+            // Q4
+            //Q4_lab1 q4 = new Q4_lab1();
+            //q4.Swap();
+
+            // Q5
+            //Q5_lab1 q5 = new Q5_lab1();
+            //q5.Calculator();
+
+            //Q6_lab1 q6 = new Q6_lab1();
+            //q6.Fibonacci();
+
+            //Q7_lab1 q7 = new Q7_lab1();
+            //q7.PrimeCheck();
+
+            //Q8_lab1 q8 = new Q8_lab1();
+            //q8.Biggest();
+
+            //Q9_lab1 q9 = new Q9_lab1();
+            //q9.Reverse();
+
+            Q10_lab1 q10 = new Q10_lab1();
+            q10.SwitchCalculator();
+
+            Console.ReadLine();
+        }
+    }
+}
